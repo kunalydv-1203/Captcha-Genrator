@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(251, 95, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 18rem;
+    width: 25rem;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    box-shadow: 5px 9px 12px 15px rgba(6, 5, 5, 0.5);
+    
+}
+
+#heading{
+    font-size: 40px;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: rgb(203, 26, 76);
+}
+
+.input-box {
+    
+    padding: 15px 35px;
+    position: relative;
+    top: 1.5rem;
+    left: 5rem;
+   
+   
+}
+
+.input-box input{
+   scale: 1.8;
+   outline: none;
+   border: 2px solid rgb(239, 89, 114);
+    
+   
+}
+
+.refresh{
+    font-size: 1.35rem;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 4.1rem;
+    left: 19.7rem;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+   
+}
+
+.msg{
+    position: relative;
+    top: 1.2rem;
+    left: 5rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+.match{
+    color: green;
+}
+
+
+.submit{
+    position: relative;
+    top: 2.5rem;
+    left: 4.2rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 2rem;
+    cursor: pointer;
+    width: 15rem;
+    height: 2.5rem;
+    background-color:   rgb(203, 26, 76);
+}
